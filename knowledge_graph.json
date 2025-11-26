@@ -1,0 +1,149 @@
+{
+    "nodes": [
+        {
+            "id": "Albert Einstein",
+            "type": "Person",
+            "properties": {}
+        },
+        {
+            "id": "German Empire",
+            "type": "Place",
+            "properties": {}
+        },
+        {
+            "id": "Switzerland",
+            "type": "Place",
+            "properties": {}
+        },
+        {
+            "id": "Zurich",
+            "type": "Place",
+            "properties": {}
+        },
+        {
+            "id": "Bern",
+            "type": "Place",
+            "properties": {}
+        },
+        {
+            "id": "Berlin",
+            "type": "Place",
+            "properties": {}
+        },
+        {
+            "id": "United States",
+            "type": "Country",
+            "properties": {}
+        },
+        {
+            "id": "Adolf Hitler",
+            "type": "Person",
+            "properties": {}
+        },
+        {
+            "id": "Franklin D. Roosevelt",
+            "type": "Person",
+            "properties": {}
+        }
+    ],
+    "relationships": [
+        {
+            "source": {
+                "id": "Albert Einstein",
+                "type": "Person",
+                "properties": {}
+            },
+            "target": {
+                "id": "German Empire",
+                "type": "Place",
+                "properties": {}
+            },
+            "type": "BORN_IN",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Albert Einstein",
+                "type": "Person",
+                "properties": {}
+            },
+            "target": {
+                "id": "Switzerland",
+                "type": "Place",
+                "properties": {}
+            },
+            "type": "MOVED_TO",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Albert Einstein",
+                "type": "Person",
+                "properties": {}
+            },
+            "target": {
+                "id": "Zurich",
+                "type": "Place",
+                "properties": {}
+            },
+            "type": "EDUCATED_AT",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Albert Einstein",
+                "type": "Person",
+                "properties": {}
+            },
+            "target": {
+                "id": "Bern",
+                "type": "Place",
+                "properties": {}
+            },
+            "type": "WORKS_AT",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Albert Einstein",
+                "type": "Person",
+                "properties": {}
+            },
+            "target": {
+                "id": "United States",
+                "type": "Country",
+                "properties": {}
+            },
+            "type": "GRANTED_CITIZENSHIP_IN",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Adolf Hitler",
+                "type": "Person",
+                "properties": {}
+            },
+            "target": {
+                "id": "Germany",
+                "type": "Place",
+                "properties": {}
+            },
+            "type": "CAME_TO_POWER_IN",
+            "properties": {}
+        },
+        {
+            "source": {
+                "id": "Albert Einstein",
+                "type": "Person",
+                "properties": {}
+            },
+            "target": {
+                "id": "Franklin D. Roosevelt",
+                "type": "Person",
+                "properties": {}
+            },
+            "type": "WRITED_LETTER_TO",
+            "properties": {}
+        }
+    ]
+}
